@@ -3,7 +3,8 @@ layout:     post
 title:      What we've been up to lately...
 date:       2016-03-29 14:31:19
 summary:    See what we've been up to lately here at Nudge over past few months.
-categories: nudge release
+categories:
+tags:       nudge release updates
 ---
 
 Wow it's nuts it's already the end of march, it really doesn't feel like it's been that long. What feels even more nuts though is the amount of work we have released for Nudge in just 3 months!
