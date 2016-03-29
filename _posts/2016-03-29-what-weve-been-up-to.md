@@ -23,10 +23,10 @@ Wow it's nuts it's already the end of march, it really doesn't feel like it's be
   - Upgraded overview conversions page allowing you to quickly see which conversion is performing the best.
   - Clicking the setting cog will take you to the campaign edit screen where you can view / add / remove conversion pixels.
 
-## Other
-  - Removed the last step in the campaign creation. This was confusing and was a legacy step no longer needed.
-  - We have overhaulded the way we handle timezones and moved this all the backend. This has fixed the annoying issue where Insights days / dates would be out for some users.
-  - Fix a bug that was causing some url titles to not render correctly and showing up with "No Title"
-  - Better category support when creating a new campaign.
-  - Users who had a lot of traffic sources listed will notice we now have an accordian to display the rest. With only the top performing shown at the top.
-  - Many many upgrades to our URL normalization. This has fixed almost all cases of the pesky url merging many of you have had to deal with. 
+## Other fixes & upgrades
+  - Removed the last step in the campaign creation. This was confusing and was a legacy step, no longer needed.
+  - We overhauled the way we handle timezones and moved this all the backend. This has fixed the annoying issue where Insights, days / dates would be out for some users.
+  - Fix a bug that was causing some url titles to not render correctly and show up with "No Title".
+  - Better category support in the campaign creation.
+  - Users who had a lot of traffic sources showing, will notice we now have an accordion to display the rest. Only the top performing ones are displayed by default.
+  - Many, many, upgrades to the URL normalization. This has fixed almost all cases of the pesky url merging many of you have had to deal with.
