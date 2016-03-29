@@ -24,7 +24,7 @@ We are already 3 months into 2016 which is crazy, considering how fast it's flow
   - Upgraded overview conversions page allowing you to quickly see which conversion is performing the best.
   - Clicking the setting cog will take you to the campaign edit screen where you can view / add / remove conversion pixels.
 
-## Other fixes & upgrades
+#### Other fixes & upgrades
   - Removed the last step in the campaign creation. This was confusing and was a legacy step, no longer needed.
   - We overhauled the way we handle timezones and moved this all the backend. This has fixed the annoying issue where the Insights days & dates would be out for some users.
   - Fixed a bug that was causing some url titles to not render correctly and show up as "No Title".
