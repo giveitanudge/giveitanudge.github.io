@@ -84,4 +84,9 @@
        ga('send', 'pageview');
     </script>
     {% endif %}
+    {% if site.nudge-analytics %}
+    <script>
+      !function(n,e,t,o,a,r,c){var s=e.getElementsByTagName(t)[0],i=function(n){for(var t=n+"=",o="cookie",a=e[o].split(";"),r=0;r<a.length;r++){var c=a[r].trim();if(0==c.indexOf(t))return c.substring(t.length,c.length)}return""},l=function(e){var t=[],o="encodeURIComponent";for(var a in e)t.push(n[o](e[a][0])+"="+n[o](e[a][1]));return t.join("&")},u=function(n,o,a){if(!e.getElementById(a)){var r=e.createElement(t);r.id=a,r.async=!0,r.src=n+"?"+l(o.q),s.parentNode.insertBefore(r,s)}},f=function(n,t){if(!e.getElementById("nca_"+t)){var o=new Image(1,1);o.src=n+t+".gif",o.id="nca_"+t,o.style.display="none";var a=document.getElementsByTagName("body")[0];a.appendChild(o)}},d=a[0];n.NcaGlobalObj=d,n[d]=n[d]||function(){(d.q=d.q||[]).push(arguments)},d=n[d],d("Account","NU-{{ site.nudge-analytics }}"),d("url",n.location.href),u("//ndg.io/ncanobutton.js",d,o[0]),d=a[1],n.FallsGlobalObj=d,n[d]=n[d]||function(){(d.q=d.q||[]).push(arguments)},d=n[d],d("url",n.location.href),d("_fp",i(r[0])),d("ctz","US/Eastern"),u("//falls.ndg.io/asynctracker.js",d,o[1]),d=a[2],n.FallsmGlobalObj=d,n[d]=n[d]||function(){(d.q=d.q||[]).push(arguments)},d=n[d],d("url",n.location.href),d("_fp",i(r[1])),d("uid","{ site.nudge-analytics }}"),d("ctz","US/Eastern"),u("//fallsm.ndg.io/asynctracker.js",d,o[1]+"m"),c.forEach(function(n,e,t){f("//c.ndg.io/",n)}),c&&u("//c.ndg.io/outbound.js",{q:[]},"ys-conv-outbound")}(window,document,"script",["ys-fb-sharejs","ys-falls-js"],["gnca","ysf","ysfm"],["__nfp","__nfmp"],[]);
+    </script>
+    {% endif %}
 </head>
